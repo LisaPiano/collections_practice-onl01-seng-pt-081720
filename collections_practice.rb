@@ -46,7 +46,7 @@ end
 
 
 def add_s(array)
-  array.each_with_index.collect{|word, num|
+  new = array.each_with_index.collect{|word, num|
 
 if
 array[num] == array[1]
@@ -55,5 +55,5 @@ else
   "#{word}s"
 end
 }
-
+new
 end
