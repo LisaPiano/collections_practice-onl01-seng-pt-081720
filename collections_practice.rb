@@ -43,3 +43,16 @@ array.each do |i|
 end
 sum
 end
+
+
+def add_s(array)
+  array.each_with_index.collect{|word, num|
+
+if
+  array[num] == array[1]
+ "#{word}"
+else
+   "#{word}s"
+end
+}
+array
