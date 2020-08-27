@@ -28,3 +28,11 @@ word.sub!(word[2], "$")
 }
 array
 end
+
+def find_a(array)
+new = array.select do |word|
+word[0] == "a"
+end
+puts new
+
+end
