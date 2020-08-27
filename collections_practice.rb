@@ -34,5 +34,14 @@ new = array.select do |word|
 word[0] == "a"
 end
 new
-
 end
+
+def sum_array(array)
+sum = 0
+array.each do |i|
+  sum += i
+end
+sum
+end
+
+
