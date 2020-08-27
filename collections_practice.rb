@@ -43,5 +43,3 @@ array.each do |i|
 end
 sum
 end
-
-
