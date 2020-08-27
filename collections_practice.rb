@@ -50,9 +50,9 @@ def add_s(array)
 
 if
   array[num] == array[1]
- "#{word}"
+puts "#{word}"
 else
-   "#{word}s"
+  puts "#{word}s"
 end
 }
 array
